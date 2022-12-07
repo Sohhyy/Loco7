@@ -18,8 +18,8 @@ code {
 
 .camera-switch {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     top: 8px;
     right: 8px;
     z-index: 1;
@@ -31,10 +31,10 @@ code {
 
 .cameraTip {
     position: absolute;
-    width: 110px;
-    height: 116px;
+    width: 220px;
+    height: 232px;
     top: 56px;
-    right: 8px;
+    right: 0px;
     z-index: 1;
     background-image: url("CameraTip.png");
     background-size: contain;
@@ -66,10 +66,10 @@ input.avatar-switch[type="checkbox"] {
 
 .record {
     position: absolute;
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     top: 8px;
-    right: 56px;
+    right: 68px;
     z-index: 1;
     background-image: url("MusicOff.png");
     background-size: contain;
@@ -79,10 +79,10 @@ input.avatar-switch[type="checkbox"] {
 
 .musicTip {
     position: absolute;
-    width: 100px;
-    height: 64px;
+    width: 200px;
+    height: 128px;
     top: 56px;
-    right: 56px;
+    right: 50px;
     z-index: 1;
     background-image: url("MusicTip.png");
     background-size: contain;
@@ -92,8 +92,8 @@ input.avatar-switch[type="checkbox"] {
 
 .info {
     position: absolute;
-    width: 84px;
-    height: 38px;
+    width: 168px;
+    height: 76px;
     top: 8px;
     left: 8px;
     z-index: 1;
@@ -105,12 +105,26 @@ input.avatar-switch[type="checkbox"] {
 
 .infoTip {
     position: absolute;
-    width: 120px;
-    height: 76px;
+    width: 240px;
+    height: 152px;
     bottom: 200px;
     left: 100px;
+
     z-index: 1;
     background-image: url("StepBackTip.png");
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+}
+
+.gotButton {
+    position: absolute;
+    width: 168px;
+    height: 76px;
+    bottom: 5vh;
+    left: 50vw;
+    z-index: 1;
+    background-image: url("Gotit.png");
     background-size: contain;
     background-color: transparent;
     border: none;
